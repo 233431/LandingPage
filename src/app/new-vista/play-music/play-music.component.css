@@ -1,0 +1,93 @@
+/* Estilos generales del contenedor del reproductor */
+.player-container {
+  background-color: #c86b68; /* Fondo rosa */
+  height: 100vh; /* Ocupar toda la altura de la vista */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centra todos los elementos verticalmente */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo del encabezado */
+.header {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo de la imagen del álbum */
+.album-cover img {
+  width: 300px; /* Ancho de la imagen */
+  height: 300px; /* Altura de la imagen */
+  border-radius: 40px; /* Bordes redondeados */
+  object-fit: cover;
+  margin-bottom: 40px; /* Añadir espacio entre la imagen y el texto */
+}
+
+/* Estilos de la información de la canción */
+.song-info {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px; /* Añadir espacio entre la info de la canción y los controles */
+}
+
+.song-info h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.song-info p {
+  margin: 0;
+  color: #b3b3b3; /* Color gris para el nombre del artista */
+  font-size: 18px;
+}
+
+/* Estilos de los controles de reproducción */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinea los botones verticalmente */
+  width: 250px; /* Tamaño más compacto para que los botones estén más cerca entre sí */
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  color: #1db954; /* Cambia a color verde en hover */
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 30px;
+}
+
+.control-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.control-button:hover {
+  color: #ff69b4;
+  transform: scale(1.2);
+}
+
+.control-button:focus {
+  outline: none;
+}

@@ -1,0 +1,52 @@
+#playlist-card h3 {
+    background: linear-gradient(45deg, #1db954, #1ed760);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    transition: transform 0.3s;
+    margin-right: 50%;
+  }
+ /* Estilos generales */
+#content {
+  padding: 50px;
+  width: 1000px;
+  position: absolute;
+  left: 400px;
+  top: 80px;
+}
+
+#playlists {
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que las tarjetas se acomoden en varias filas si no caben en una sola */
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-content: space-between; /* Para distribuir las tarjetas de manera equitativa */
+}
+
+#playlist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px; /* Ajusta el ancho de las tarjetas */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+#playlist-card img {
+  width: 80%; /* Hacer que las imágenes se ajusten al ancho de la tarjeta */
+  border-radius: 10px;
+}
+
+#playlist-card h3 {
+  margin-top: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+#playlist-card:hover {
+  transform: scale(1.05); /* Efecto hover para agrandar un poco las tarjetas */
+}

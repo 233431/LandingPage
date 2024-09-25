@@ -1,0 +1,110 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1db954, #121212);
+    color: white;
+  }
+  
+  .signup-left {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+  }
+  
+  .signup-left img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-left h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .signup-left p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .signup-right {
+    flex: 1;
+    background-color: #000;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .signup-right h2 {
+    margin-bottom: 20px;
+  }
+  
+  .facebook-signup {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .or-divider hr {
+    width: 40%;
+    border-color: white;
+  }
+  
+  .or-divider span {
+    color: white;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  form .checkbox input {
+    margin-right: 10px;
+  }
+  
+  form button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #1ed760;
+  }
+  
+  a {
+    color: #1db954;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
